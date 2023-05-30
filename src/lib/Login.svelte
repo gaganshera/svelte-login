@@ -44,7 +44,7 @@
     </button>
   </form>
 {:else}
-  <my-selection-form />
-
   <button on:click|preventDefault={handleLogoutClick}>Logout</button>
+  <br /><br /><br /><br />
+  <my-selection-form />
 {/if}
