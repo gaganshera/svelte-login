@@ -37,7 +37,7 @@
   <form>
     <input bind:value={username} required placeholder="Username" />
 
-    <input bind:value={password} required placeholder="Password" />
+    <input type="password" bind:value={password} required placeholder="Password" />
 
     <button on:click|preventDefault={handleSubmitClick} type="submit">
       Submit
